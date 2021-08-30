@@ -1,0 +1,124 @@
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}    
+
+% adjust the page margins
+\usepackage[left=.6in,right=.6in,top=.9in,bottom=.8in]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						
+
+% personal data
+\firstname{Paul}
+\familyname{Barthe}
+\mobile{+337 81 09 14 85}                    
+\email{p.barthe441@hotmail.com}                      
+\homepage{paulbarza.github.io/Cv_Paul_Barthe/}                
+\social[github]{PaulBarZa}                
+\extrainfo{22 years old}                
+
+\begin{document}
+\maketitle
+
+\begingroup
+\setlength{\parindent}{1cm}\textbf{}
+\endgroup
+
+\bigskip
+
+\section{Education}
+\smallskip
+\cventry{2020--Present}{Master degree, Computer engineering}{EPF engineering school}{Sceaux, France}{}{}
+\cventry{2017--2020}{Bachelor degree, General engineering}{EPF engineering school}{Sceaux, France}{}{}
+\cventry{2014--2017}{Highscool diploma, Mathematics speciality}{Allende}{Caen, France}{}{}
+
+\bigskip
+
+\section{Experiences}
+\smallskip
+\cventry{2020}{Intern in web development (6 months)}{Actility}{Caen, France}{}{
+    Developing a web application to drive a LoRaWAN network.\\
+    Working in team of 8 people.\\
+    Developing backend in Golang and frontend in Angular.\\
+    Learning how a LoRaWAN network works.
+}
+
+\bigskip
+
+\section{Projects}
+\smallskip
+\cventry{}{Minesweeper AI}{}{}{}{
+    Developing two machine learning models to play Minesweeper game, one by Constraint Satisfaction and Logic and one Double Deep Q-Learning model.\\
+    Using Python and Tensorflow.\\
+    Writing a document to explain my work and why I used:
+    \begin{itemize}
+        \begin{itemize}
+            \item Constraint Satisfaction and Logic
+            \item Reinforcement Learning
+            \item Double Deep Neural Network
+            \item Experience Replay
+            \item Shaping
+            \item Transfert Learning
+        \end{itemize}
+    \end{itemize}
+}
+\smallskip
+\cventry{}{Android application}{}{}{}{
+    Developing a simple application that allows you to scan and get info on food products.\\
+    Using Kotlin and Android Studio Code.
+}
+\smallskip
+\cventry{}{My website}{}{}{}{
+    Developing a website to introduce myself.\\
+    Using HTML/CSS, JavaScript and NodeJs.
+}
+
+\newpage
+
+\section{Technical Experiences}
+\smallskip
+\subsection{Proficient With}
+\cvline{Languages}{Python, Typescript, Golang, JavaScript, HTML, CSS, JSON}
+\cvline{Technologies}{Angular, Echo, Tensorflow, Keras, Matplotlib, Numpy, Git, Visual Studio Code, Bootstrap, Ubuntu}
+\smallskip
+\subsection{Have Experience With}
+\cvline{Languages}{PHP, C++, C Sharp, Java, Kotlin, SQL, Matlab, LateX}
+\cvline{Technologies}{Symfony, Eclipse, MySQL, Android Studio, Unity}
+
+\section{Main courses}
+\smallskip
+\subsection{EPF engineering school, Sceaux}
+\smallskip
+\cvline{Machine learning}{Classification, regression and optimization, Deep | Convolutional | Recurrent neural network, Over-fitting and regularization.}
+\cvline{Computer science}{Programming in C++, Java, Python, Computer Network Fundamentals, Cryptography, Web design, Introduction to quantum computing, Security.}
+\cvline{Course next year}{Data science and Big Data, Advanced software engineering, Artificial intelligence, logic and probabilities, Internet of things, Cybersecurity.}
+\cvline{Others}{Statistics, Probabilities, Calculating processes, Electromagnetics, Physics, Thermodynamics, Mechanics, English (TOEIC 895/990), Spanish.}
+
+\bigskip
+
+\section{Activities}
+\smallskip
+\cventry{2019}{Eloquence Association}{}{}{}{
+    Head of communication of the EPF engineering Eloquence association
+}
+\smallskip
+\cventry{2019}{Gaming Office Association}{}{}{}{
+    Head of the poker part of the EPF engineering Gaming Office association
+}
+\cventry{}{Current Hobbies}{}{}{}{
+    Machine learning, Programming, Running, Swimming, Cycling, Piano.
+}
+
+\end{document}
